@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 class bnb extends StatefulWidget {
-  const bnb({super.key});
+  const bnb({super.key, required String title});
 
   @override
   State<bnb> createState() => _bnbState();
