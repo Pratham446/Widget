@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget/Circular%20%20progressindicator.dart';
 import 'package:widget/bottomnavigation.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const bnb(title: 'Flutter Demo Home Page'),
+      home: const cpb(),
     );
   }
 }
